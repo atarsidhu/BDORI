@@ -1,3 +1,7 @@
 <resources>
     <string name="app_name">BDORI</string>
+    <string name="full_name">Bipolar &amp; Depression Outcomes Research Institute </string>
+
+    <string name="welcome_messgae">Welcome!</string>
+    <string name="get_started">Let\'s Start</string>
 </resources>
