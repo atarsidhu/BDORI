@@ -25,7 +25,7 @@ public class MainActivity extends AppCompatActivity {
         BottomNavigationView bottomNav = findViewById(R.id.bottom_navigation);
         bottomNav.setOnNavigationItemSelectedListener(navListener);
 
-        getSupportFragmentManager().beginTransaction().replace(R.id.fragment_containter, new HomeFragment()).commit();
+        getSupportFragmentManager().beginTransaction().replace(R.id.fragment_container, new HomeFragment()).commit();
     }
 
     @Override
@@ -51,12 +51,12 @@ public class MainActivity extends AppCompatActivity {
                 case R.id.nav_lessons:
                     selectedFrag = new LessonsFragment();
                     break;
-                case R.id.nav_settings:
-                    selectedFrag = new SettingsFragment();
-                    break;
+//                case R.id.nav_settings:
+//                    selectedFrag = new SettingsFragment();
+//                    break;
             }
 
-            getSupportFragmentManager().beginTransaction().replace(R.id.fragment_containter, selectedFrag).commit();
+            getSupportFragmentManager().beginTransaction().replace(R.id.fragment_container, selectedFrag).commit();
 
             return true;
         }

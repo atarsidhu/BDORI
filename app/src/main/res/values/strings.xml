@@ -5,6 +5,7 @@
 <!--  Home Fragment  -->
     <string name="welcome_messgae">Welcome!</string>
     <string name="get_started">Let\'s Start</string>
+
     <string name="check_in">Check In</string>
     <string name="streak">Check In Streak</string>
     <string name="sunday">S</string>
@@ -13,4 +14,8 @@
     <string name="wednesday">W</string>
     <string name="thursday">T</string>
     <string name="friday">F</string>
+
+    <string name="donate">Donate</string>
+    <string name="help">Help Us Make A Difference</string>
+    <string name="donate_info">BDORI is a 501(c)(3) non-profit organization with a focus on mental health outcomes research. Our mission is to find the best outcomes available, research how to create them, and share our results with those interested in creating similar outcomes in their own lives. All aspects of the studies are directed by those of us who have direct experience and those who love and support us.</string>
 </resources>
